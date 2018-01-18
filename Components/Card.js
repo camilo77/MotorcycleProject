@@ -16,7 +16,7 @@ export default class Card extends Component {
     return(
       <TouchableHighlight
         style = { this.props.style } // styles to define height and width
-        onPress = {this._onPressButton}
+        onPress = { this.props.onPress }
         underlayColor = "white"
       >
         <View style = { [ styles.card, ] }>
