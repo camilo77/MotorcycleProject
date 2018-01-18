@@ -97,13 +97,8 @@ export default class Home extends Component {
           style = { { width: WINDOW.width * 0.8, height: WINDOW.width * 0.8, marginBottom: 40, } }
           title = 'LavaAliados'
           paragraph = 'Encuentra todos los lugares para cuidar la estética de tu máquinaaaaa'
+          onPress = { () => navigate('Mapa') }
         />
-
-        <Button
-          onPress={() => navigate('Mapa')}
-          title="Mapa"
-        />
-
         <View style = { styles.section2 } >
           <ScrollView
             horizontal = { true }
